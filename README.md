@@ -1,5 +1,5 @@
-![](./README-assets/task-js-basics.png)
-# Browser calculator in Javascript. Don't skip it, please!
+[![Browser calculator in Javascript](./README-assets/task-js-basics.png)](https://typee8.github.io/Browser-calculator-in-Javascript/)
+# [Browser calculator in Javascript.](https://typee8.github.io/Browser-calculator-in-Javascript/) Don't skip it, please!
 
 I know what you're thinking. What's interesting about a calculator when writing it makes no sense today?! You're absolutely right! Nevertheless, this exercise helps a lot, especially at the beginning of the journey with JS, to memorize the basics of the language and use it properly.
 
