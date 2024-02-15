@@ -18,7 +18,7 @@ I know what you're thinking. What's interesting about a calculator when writing 
 I wanted to check if `this.history.push(${num1} + ${num2} = ${result});` pushes values correctly to `Calculator.history` array.
 It was uncomfortable to test it inside the core code because of other operations that occure when running it. I put the code into another file and tested it separately. It's always beneficial to examine complex code in small chunks, as it makes it much easier to handle:
 
-[You can check whole code here!](https://github.com/devmentor-pl/task-js-basics/blob/8e6069fe5f05b9c693ce10acb09b491add600976/js/app.js)
+[You can check belows code here!](./README-assets/legacy%20code/app.js)
 
 I've extracted this:
 ```
@@ -63,11 +63,11 @@ console.log(history);
 
 Otherwise, to test `this.history.push`, I would need to go through these operations:
 - prompts:
-action = prompt(promptContent);
-number1 = prompt("Podaj liczbę nr 1");
+action = prompt(promptContent);<br>
+number1 = prompt("Podaj liczbę nr 1");<br>
 number2 = prompt("Podaj liczbę nr 2");
 - conditionals:
-isCorrectAction = calc.isCorrectAction(action);
+isCorrectAction = calc.isCorrectAction(action);<br>
 action === "+";
 
 ---
@@ -105,7 +105,7 @@ Calculator.prototype.add = function (num1, num2) {
 ```
 I've created special function in `Calculator.prototype` - `doOperation()` which does repeatable tasks.
 
-[Check the code out!](https://github.com/devmentor-pl/task-js-basics/blob/8e6069fe5f05b9c693ce10acb09b491add600976/js/app.js)
+[Check the code out!](./js/app.js)
 
 **`doOperation()`**:
 
